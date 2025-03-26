@@ -20,9 +20,9 @@ while b :
     print(f"Globs : {glob}.\tBlubs : {blub}.   ")
   print(f"Comida: {recursos[0]}\nÁgua: {recursos[1]}\nCristais: {recursos[2]}")
   print("Aqui estão suas opções de bichos para comprar")
-  print("Opção 1: Ganhar mais um glob. Cada glob tira uma água sua e te dá um cristal")
+  print("Opção 1: Ganhar mais um glob. Cada glob tira uma água sua e te dá um cristal. Eles têm um limite de tempo de vida")
   if recursos[2]>=15 :
-    print("Opção 2 : Gaste 15 cristais e compre um blub. Ele gera uma água por segundo")
+    print("Opção 2 : Gaste 15 cristais e compre um blub. Ele gera uma água por turno")
     r-=1
   if recursos[2]>=30 :
     print("Opção 3 : Gaste 30 cristais e compre um Gleb. Ele fala quantos blubs e globs vc tem.")
