@@ -40,7 +40,7 @@ while b :
     print("Opção 3 : Gaste 30 cristais e compre um Gleb. Ele fala quantos blubs e globs vc tem.")
     r-=1
   if recursos[2]>=30 :
-    print("Opção 4 : Gaste 30 cristais e compre um Blib. Ele fala quantos blubs e globs vc tem.")
+    print("Opção 4 : Gaste 30 cristais e compre um Blib. Ele te dá alimentos e come um cristal e uma água. tem vida limitada")
     r-=1
   if recursos[2]>=50 :
     print("Opção 3 : Gaste 50 cristais e compre um Dlub. Ele fala a vida de seus globs e blubs.")
